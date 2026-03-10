@@ -1,0 +1,14 @@
+name: ulana-medaka
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pip
+  - minimap2
+  - samtools
+  - htslib
+  - numpy
+  - pip:
+      # pick a version you know works for your data/models
+      - medaka

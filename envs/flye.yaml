@@ -1,0 +1,6 @@
+name: ulana-flye
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - flye

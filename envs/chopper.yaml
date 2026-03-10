@@ -1,0 +1,7 @@
+name: ulana-chopper
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - chopper
+  - pigz

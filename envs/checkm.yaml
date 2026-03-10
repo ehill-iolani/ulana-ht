@@ -1,0 +1,6 @@
+name: ulana-checkm
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - checkm-genome
