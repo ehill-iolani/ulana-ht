@@ -1,0 +1,20 @@
+samples_tsv: config/samples.tsv
+
+params:
+  chopper:
+    q: 10
+    minlength: 1000
+  flye:
+    mode: "--nano-hq"
+  medaka:
+    enabled: true
+    model: "r=1041_min_hac_g507"
+  prokka:
+    enabled: true
+  checkm:
+    enabled: true
+  id_genes:
+    enabled: true
+  amrfinder:
+    enabled: true
+    db: "db/amrfinder_db"
