@@ -1,0 +1,4 @@
+data/
+.snakemake/
+notes.sh
+.DS_Store
