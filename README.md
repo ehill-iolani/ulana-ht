@@ -67,7 +67,7 @@ These steps and toggles are defined in the Snakefile and config/config.yaml.
 
 Create a dedicated Snakemake environment:
 ```
-conda create -n snakemake -c conda-forge -c bioconda snakemake
+conda create -n snakemake -c conda-forge -c bioconda python=3.11 snakemake=8
 conda activate snakemake
 ```
 
