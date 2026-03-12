@@ -175,11 +175,11 @@ rule identifier_genes:
         echo '>16S ribosomal RNA' > {output.rrna}
         awk '/16S ribosomal RNA/{{flag=1;next}}/^>/{{flag=0}}flag' {input.ffn} >> {output.rrna}
 
-        echo '>dnaA' > {output.dnaa}
-        awk '/dnaA/{{flag=1;next}}/^>/{{flag=0}}flag' {input.ffn} >> {output.dnaa}
+        echo '>Chromosomal replication initiator protein DnaA' > {output.dnaa}
+        awk '/Chromosomal replication initiator protein DnaA/{{flag=1;next}}/^>/{{flag=0}}flag' {input.ffn} >> {output.dnaa}
 
-        echo '>rpoB' > {output.rpob}
-        awk '/rpoB/{{flag=1;next}}/^>/{{flag=0}}flag' {input.ffn} >> {output.rpob}
+        echo '>DNA-directed RNA polymerase subunit beta RpoB' > {output.rpob}
+        awk '/DNA-directed RNA polymerase subunit beta RpoB/{{flag=1;next}}/^>/{{flag=0}}flag' {input.ffn} >> {output.rpob}
         """
 
 # AMRFinder database setup
